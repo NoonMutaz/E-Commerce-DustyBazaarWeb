@@ -1,4 +1,4 @@
-import oldTV from "../assets/oldTV.jpeg";
+import oldTV from "../assets/oldTv.jpeg";
 import phoneOld from "../assets/phoneOld.jpeg";
 import books from "../assets/books.jpeg";
 import yellowCar from "../assets/yellowCar.jpeg";
