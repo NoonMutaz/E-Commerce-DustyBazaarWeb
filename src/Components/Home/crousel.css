@@ -1,0 +1,26 @@
+
+    .crouselFont{
+        text-align: center;
+        /* font-size: 2em; */
+  /* line-height: calc(20px + 20vh); */
+/*   text-shadow: 0 0 5px #f562ff, 0 0 15px #f562ff, 0 0 25px #f562ff,
+    0 0 20px #f562ff, 0 0 30px #890092, 0 0 80px #890092, 0 0 80px #890092;
+  color: #fccaff; */
+color: white;
+text-shadow: 1px 1px 3px rgba(0,0,0,0.7), 2px 2px 5px rgba(0,0,0,0.5);
+  /* font-family: "Sacramento", cursive; */
+  text-align: center;
+  animation: blink 12s infinite;
+  -webkit-animation: blink 12s infinite;
+    }
+
+
+
+
+    .my-scroll {
+  -ms-overflow-style: none;  /* IE & Edge */
+  scrollbar-width: none;     /* Firefox */
+}
+.my-scroll::-webkit-scrollbar {
+  display: none; /* Chrome, Safari */
+}
