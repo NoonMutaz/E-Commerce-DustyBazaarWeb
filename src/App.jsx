@@ -76,12 +76,12 @@ function App() {
       </div>
         <Routes style={{ backgroundColor:'whitesmoke',  }}>
           <Route path="/" element={<Homepage   />} />
-           <Route path="/about" element={<About   />} />
-           <Route path="/contactus" element={<Contactus   />} />
-           <Route path="/cart" element={<Cart />} />
-           <Route path="/checkout" element={<Checkout />} />
-            <Route path="/profile" element={<Profile />} />
-            <Route path="/sell-item" element={<SellItem />} />
+           <Route path="/About" element={<About   />} />
+           <Route path="/Contactus" element={<Contactus   />} />
+           <Route path="/Cart" element={<Cart />} />
+           <Route path="/Checkout" element={<Checkout />} />
+            <Route path="/Profile" element={<Profile />} />
+            <Route path="/SellItem" element={<SellItem />} />
           {/* Add more routes as needed */}
         </Routes>
       </div>     

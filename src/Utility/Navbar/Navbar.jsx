@@ -40,8 +40,8 @@ export default function NavBar({productBox}) {
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
             <Nav.Link href="/">Home</Nav.Link>
-            <Nav.Link href="Contactus">Contact</Nav.Link>
-              <Nav.Link href="about">About</Nav.Link>
+            <Nav.Link href="/Contactus">Contact</Nav.Link>
+              <Nav.Link href="/About">About</Nav.Link>
 
 
  
@@ -66,7 +66,7 @@ export default function NavBar({productBox}) {
 
 
         </div>    
-        <Link to='/cart'>
+        <Link to='/Cart'>
 <img src={basket} className='w-10  h-10' alt="Basket Icon" />
 
         </Link>

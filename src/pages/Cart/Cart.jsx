@@ -108,7 +108,7 @@ export default function  Cart() {
                   ${totalPrice}
                 </span>
               </h4>
-         <Link to="/checkout">
+         <Link to="/Checkout">
            <Button
              size="lg"
              className="mt-3"
