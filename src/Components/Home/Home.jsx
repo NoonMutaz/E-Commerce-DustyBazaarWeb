@@ -17,7 +17,7 @@ import { Row, Col, Container } from "react-bootstrap";
 
 export default function Home() {
   const [currentPage, setCurrentPage] = useState(1);
-  const productsPerPage = 10;
+  const productsPerPage = 8;
 
 
   // Pagination logic
@@ -60,6 +60,7 @@ export default function Home() {
             justifyContent: "start",
             alignItems: "center",
             flexWrap: "nowrap",
+          
           }}
         >
           {products.map((product) => (
@@ -76,20 +77,19 @@ export default function Home() {
           Recomended for you
         </h1>
         <div
-          style={{
-            display: "flex",
-            gap: "2rem",
-            justifyContent: "center",
-            alignItems: "center",
-            flexWrap: "wrap",
-            marginTop: "3rem",
-            marginBottom: "3rem",
-          }}
-        >
-          {currentProducts.map((product) => (
-            <Product key={product.id} product={product} />
-          ))}
-        </div>
+  style={{
+    display: "grid",
+    gridTemplateColumns: "repeat(auto-fit, minmax(15rem, 1fr))",
+    gap: "2rem",
+    marginTop: "3rem",
+    marginBottom: "3rem",
+  }}
+>
+  {currentProducts.map((product) => (
+    <Product key={product.id} product={product} />
+  ))}
+</div>
+
         <div
           style={{
             display: "flex",
