@@ -82,7 +82,6 @@ function App() {
            <Route path="/Checkout" element={<Checkout />} />
             <Route path="/Profile" element={<Profile />} />
             <Route path="/SellItem" element={<SellItem />} />
-          {/* Add more routes as needed */}
         </Routes>
       </div>     
       <Footer/>

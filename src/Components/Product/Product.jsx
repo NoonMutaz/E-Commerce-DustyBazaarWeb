@@ -7,8 +7,9 @@ import placeholder from "../../assets/fan.gif";
 import QuantitySelector from "./QuantitySelector";
 import ProductDetails from "./ProductDetails";
  import styled from 'styled-components' 
- 
+import {Container} from "react-bootstrap"; 
 import ButtonGroup from "react-bootstrap/ButtonGroup";
+ 
 // import * as motion from "motion/react-client";
 
 
@@ -48,8 +49,8 @@ function Product({ product }) {
 
   return (
    <div>
-<div div>
-  <Card   whileHover={{ scale: 1.2 }}
+<Container className="product-card-container w-100">
+  <Card  style={{ border: isInCart ? "2px solid green" : "none"  ,width: "100%",height:'100%'}}  whileHover={{ scale: 1.3 }}
             whileTap={{ scale: 0.8 }} className="product-card">
       <Card.Img onClick={() => setShowDetails(true)} style={{cursor:'pointer'}} className={`product-img ${!product.img ? "placeholder" : ""} detail`} variant="top" src={product.img|| placeholder} />
     
@@ -77,7 +78,7 @@ function Product({ product }) {
         </Card.Title>
       </Card.Body>
     </Card>
-</div>
+</Container>
       <ProductDetails
         show={showDetails}            
         onClose={() => setShowDetails(false)}  
