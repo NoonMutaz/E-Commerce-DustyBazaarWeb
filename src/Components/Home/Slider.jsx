@@ -84,7 +84,7 @@ export default function Slider() {
 
           <Carousel.Caption>
             <h3 className="crouselFont"> sell something?</h3>
-           <Link to='/Sell-item'>
+           <Link to='/SellItem'>
            <Button type="button"  style={{backgroundColor: "tomato", border: "none"}}>Get in touch with us!</Button>
 
            </Link>
