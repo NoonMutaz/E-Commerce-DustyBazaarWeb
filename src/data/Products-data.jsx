@@ -1,7 +1,7 @@
-import oldTV from "../assets/oldTv.jpeg";
-import phoneOld from "../assets/phoneOld.jpeg";
-import books from "../assets/books.jpeg";
-import yellowCar from "../assets/yellowCar.jpeg";
+import oldTV from "../assets/oldTv.webp";
+import phoneOld from "../assets/phoneOld.webp";
+import books from "../assets/books.webp";
+import yellowCar from "../assets/yellowCar.webp";
 
 export const ProductBox = [
   {

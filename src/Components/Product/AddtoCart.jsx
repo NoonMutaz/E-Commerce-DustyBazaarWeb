@@ -1,9 +1,9 @@
 import React from 'react'
-import addtocart from "../../assets/add-to-cart.png";
-import check from "../../assets/check-out.png";
+import addtocart from "../../assets/add-to-cart.svg";
+import check from "../../assets/check-out.svg";
 import "./Product.css";
-import heart from "../../assets/heart.png";
-import redheart from "../../assets/redheart.png";
+import heart from "../../assets/heart.svg";
+import redheart from "../../assets/redheart.svg";
 
 export default function AddtoCart({ isInWishlist, isInCart, handleWishlistClick, handleCartClick }) {
 

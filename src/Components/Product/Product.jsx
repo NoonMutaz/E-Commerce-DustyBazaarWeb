@@ -57,7 +57,7 @@ function Product({ product }) {
     {/* <div className="overlay-text">click for more details</div>
      */}
       <Card.Body>
-        <Card.Text className="product-text">{product.cardtext}</Card.Text>
+        <Card.Text onClick={() => setShowDetails(true)} style={{cursor:'pointer'}} className="product-text">{product.cardtext}</Card.Text>
 
         <div style={{ display: "flex", justifyContent: "end" }}>
           <QuantitySelector
